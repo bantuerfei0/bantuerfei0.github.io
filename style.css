@@ -1,0 +1,28 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: whitesmoke;
+}
+
+.nav a {
+    color: #303030;
+    text-decoration: none; /* no underline */
+    font-weight: bold;
+    transition: color 0.1s;
+}
+
+.nav a:hover {
+    color: #999999;
+}
+
+.name {
+    font-weight: bolder;
+    margin-right: 25vw;
+}
+
+.nav {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}   
